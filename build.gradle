@@ -1,0 +1,26 @@
+buildscript {
+    repositories {
+        mavenCentral()
+        google()
+        gradlePluginPortal()
+    }
+}
+
+allprojects {
+    apply plugin: "eclipse"
+    apply plugin: "idea"
+
+    version = '1.0'
+    ext {
+        appName = "TCSiaki"
+        gdxVersion = '1.12.1'
+    }
+
+    repositories {
+        mavenCentral()
+        google()
+        maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
+        maven { url "https://oss.sonatype.org/content/repositories/releases/" }
+        maven { url "https://jitpack.io" }
+    }
+}

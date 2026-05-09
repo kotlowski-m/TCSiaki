@@ -22,3 +22,17 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# project plan
+01_TCSiaki_PRD.md
+02_TCSiaki_Game_Concept.md
+03_TCSiaki_Feature_Roadmap_Commits.md
+
+# local notes
+commit-notes/
+
+# intellij
+.idea/
+
+# gradle
+.gradle/
